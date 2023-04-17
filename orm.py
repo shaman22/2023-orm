@@ -32,7 +32,7 @@ class Customer(Base):
         return (
             f"Customer(id={self.id!r}, "
             f"first_name={self.first_name!r}, "
-            f"last_name={self.LastName!r})"
+            f"last_name={self.last_name!r})"
         )
 
 
